@@ -64,22 +64,6 @@ struct Masina* MasiniSport(struct Masina* masini, int nrMasini, int* nrMasiniSpo
 
 }
 
-//struct Masina* masiniMulteUsi(struct Masina* masini, int* nrMasini) {
-// int nrMasiniNoi = 0;
-// for(int i = 9; i < nrMasini; i++){
-// if (masini[i].nrUsi > 2) {
-// nrMasiniNoi++;
-// }
-// }
-// struct Masina* masiniUsi = malloc(sizeof(struct Masina) * nrMasiniNoi);
-// int j = 0;
-// for (int i = 0; i < nrMasiniNoi; i++) {
-// if (masini[i].nrUsi > 2) {
-// masiniUsi[j] = masini[i];
-// j++;
-// }
-// }
-//}
 
 int main() {
 
